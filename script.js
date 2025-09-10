@@ -47,7 +47,7 @@ function createItem() {
 
   gameArea.appendChild(item);
 
-  const fallSpeed = 2 + Math.random() * 3;
+  const fallSpeed = 2 + Math.random() * 1.5;
 
   function fall() {
     const currentTop = parseFloat(item.style.top);
